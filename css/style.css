@@ -22,6 +22,28 @@ h2 {
   margin-bottom: 30px;
 }
 
+.popup-wrapper {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.popup {
+  width: 500px;
+  height: 500px;
+  background: orange;
+  border: 2px dashed white;
+
+}
+
 .main-header {
   background-color: black;
   position: relative;
