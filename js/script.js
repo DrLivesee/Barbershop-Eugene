@@ -1,3 +1,4 @@
+/*
 let picture = document.querySelector('.pic1 img')
 let popupWrapper = document.querySelector('.popup-wrapper')
 
@@ -13,3 +14,4 @@ popupWrapper.addEventListener('click', () => {
     popupWrapper.style.display = 'none'
     isAlreadyClicked = true
 })
+*/
