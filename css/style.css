@@ -687,7 +687,30 @@ ul {
 
 /* NEWS CSS */
 
-.fs-new img {
+.new img {
   border-radius: 10px;
+}
+
+.new {
+  padding: 0 10px 0 10px;
+  margin-bottom: 60px;
+}
+
+.sl_ctr {
+  margin-bottom: 20px;
+}
+
+.sl_ctr button {
+  margin-top: 10px;
+  display: block;
+}
+
+.sl_ctr .btn-lf {
+  margin-left: 20px;
+  float: left;
+}
+
+.sl_ctr .btn-rt {
+  float: right;
 }
 
