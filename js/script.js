@@ -28,58 +28,58 @@ var mapPopup = document.querySelector(".modal-content-map");
 var mapClose = mapPopup.querySelector(".modal-content-close");
 var overlay = document.querySelector(".modal-overlay");
 
-link.addEventListener("click", function(event){
+link.addEventListener("click", function (event) {
     event.preventDefault();
     popup.classList.add("modal-content-show");
     login.focus();
     if (storage) {
         login.value = storage;
         password.focus();
-    }   else {
+    } else {
         lofin.focus();
     }
 });
 
-close.addEventListener("click", function(event) {
+close.addEventListener("click", function (event) {
     event.preventDefault();
     popup.classList.remove("modal-content-show");
     popup.classList.remove("modal-error");
 });
 
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function (event) {
     if (!login.value || !password.value) {
-    event.preventDefault();
-    popup.classList.add("modal-error");
+        event.preventDefault();
+        popup.classList.add("modal-error");
     } else {
         localStorage.setItem("login", login.value);
     }
 });
 
-window.addEventListener("keydown", function(event) {
+window.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
         if (popup.classList.contains("modal-content-show")) {
-        popup.classList.remove("modal-content-show");
-        popup.classList.remove("modal-error");
+            popup.classList.remove("modal-content-show");
+            popup.classList.remove("modal-error");
         }
     }
 });
 
-mapOpen.addEventListener("click", function(event){
+mapOpen.addEventListener("click", function (event) {
     event.preventDefault();
     mapPopup.classList.add("modal-content-show");
     overlay.classList.add("modal-overlay-show");
 });
 
-mapClose.addEventListener("click", function(event) {
+mapClose.addEventListener("click", function (event) {
     event.preventDefault();
     mapPopup.classList.remove("modal-content-show");
     overlay.classList.remove("modal-overlay-show");
 });
 
-window.addEventListener("keydown", function(event) {
-    if (event.key === "Escape") { 
+window.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
         if (mapPopup.classList.contains("modal-content-show")) {
-        mapPopup.classList.remove("modal-content-show");
+            mapPopup.classList.remove("modal-content-show");
         }
     }
 });

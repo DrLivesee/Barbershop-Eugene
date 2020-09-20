@@ -1,155 +1,171 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>Главная - Барбершоп Eugene!</title>
-  </head>
-  <body>
-    
-    <div class="popup-wrapper">
-      <div class="popup">
-        Hello Zhenya!
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <title>Главная - Барбершоп Eugene!</title>
+</head>
+
+<body>
+
+  <div class="popup-wrapper">
+    <div class="popup">
+      Hello Zhenya!
+    </div>
+  </div>
+  <header class="main-header">
+    <div class="container clearfix">
+      <div class="main-nav">
+        <a href="/">
+          <div class="active">Главная</div>
+        </a>
+        <a href="#">
+          <div>Информация</div>
+        </a>
+        <a href="news.html">
+          <div>Новости</div>
+        </a>
+        <a href="price-list.html">
+          <div>Прайс-лист</div>
+        </a>
+        <a class="store" href="store.html">
+          <div class="modal-bottom">
+          </div>
+          <div>Магазин</div>
+        </a>
+        <a href="contacts.html">
+          <div>Контакты</div>
+        </a>
+      </div>
+      <div class="user-block">
+        <a class="login" href="#">
+          <div class="enter">Вход</div>
+        </a>
       </div>
     </div>
-    <header class="main-header">
-      <div class="container clearfix">
-        <div class="main-nav">
-          <a href="/"><div class="active">Главная</div></a>
-          <a href="#"><div>Информация</div></a>
-          <a href="news.html"><div>Новости</div></a>
-          <a href="price-list.html"><div>Прайс-лист</div></a>
-          <a class="store" href="store.html">
-            <div class="modal-bottom">
-            </div>
-            <div>Магазин</div></a>
-          <a href="contacts.html"><div>Контакты</div></a>
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <div class="pic1">
+        <img src="img/index/1.jpg" width="368px" height="204px">
+      </div>
+      <div class="fs-blocks clearfix">
+        <div class="fs-block">
+          <b class="name-block">Быстро</b>
+          <p><img src="img/shrek.png" width="10%"></p>
+          <p>Быстрее флеша сделаем вам стрижку</p>
         </div>
-        <div class="user-block">
-          <a class="login" href="#"><div class="enter">Вход</div></a>
+        <div class="fs-block">
+          <b class="name-block">Круто</b>
+          <p><img src="img/shrek.png" width="10%"></p>
+          <p>Станете самым модным на районе</p>
+        </div>
+        <div class="fs-block">
+          <b class="name-block">Дорого</b>
+          <p><img src="img/shrek.png" width="10%"></p>
+          <p>Придется отдать пол зарплаты</p>
         </div>
       </div>
-    </header>
-      <main class="main">
-        <div class="main-container">
-          <div class="pic1">
-            <img src="img/index/1.jpg" width="368px" height="204px">
-          </div>
-          <div class="fs-blocks clearfix">
-            <div class="fs-block">
-              <b class="name-block">Быстро</b>
-              <p><img src="img/shrek.png" width="10%"></p>
-              <p>Быстрее флеша сделаем вам стрижку</p>
-            </div>
-            <div class="fs-block">
-              <b class="name-block">Круто</b>
-              <p><img src="img/shrek.png" width="10%"></p>
-              <p>Станете самым модным на районе</p>
-            </div>
-            <div class="fs-block">
-              <b class="name-block">Дорого</b>
-              <p><img src="img/shrek.png" width="10%"></p>
-              <p>Придется отдать пол зарплаты</p>
-            </div>
-          </div>
-            <div class="sc-blocks clearfix">
-              <div class="sc-block-left">
-                <h2 class="sc-blocks-ttl">Новости</h2>
-                <p>Нам наконец завезли Ягермейстер, можем бухнуть как следует</p>
-                <p class="time"><time datetime="2016-01-11">11 января</time></p>
-                <p>
-                  В нашей команде супер пополнение, Боря руки-ножницы, Гарри
-                  человек-швейцарский нож
-                </p>
-                <p class="time"><time  datetime="2016-09-19">19 сентября</time></p><br />
-                <a class="btn" href="#">Все новости</a>
-              </div>
-              <div class="sc-block-right">
-                <h2 class="sc-blocks-ttl">Фотогалерея</h2>
-                <img src="img/index/3.jpg" width="286px" height="186px" /><br />
-                <button class="btn-sc-bl-lf btn disabled">Назад</button>
-                <button class="btn-sc-bl-rt btn disabled">Вперед</button>
-              </div>
-            </div>
-            <div class="td-blocks clearfix">
-              <div class="td-block-left">
-                <h2 class="td-blocks-ttl">Контактная информация</h2>
-                <p>
-                  Барбершоп "Пока волосы"<br />
-                  Адрес: Перово дом кирпичный подъезд грязный<br />
-                  Телефон: 88005553535
-                </p>
-                <p>
-                  Время работы:<br />
-                  пн-пт: с 10:00 до 22:00 <br />
-                  сб-вс: с 10:00 до 19:00
-                </p>
-                <a class="btn js-open-map" href="#">Как проехать</a>
-                <a class="btn" href="#">Обратная связь</a>
-              </div>
-              <div class="td-block-right">
-                <h2 class="td-blocks-ttl">Записаться</h2>
-                <p>
-                  Укажите желаемую дату и время и мы свяжемся с вами для
-                  подтверждения брони
-                </p>
-                <form class="appointment-form" action="#" method="post">
-                  <input type="text" name="date" value="" placeholder="Дата" />
-                  <input type="text" name="time" value="" placeholder="Время" />
-                  <input type="text" name="name" value="" placeholder="Ваше имя"/>
-                  <input type="tel" name="phone" value="" placeholder="Телефон" />
-                </form>
-                <br />
-                <button class="btn" type="submit">Отправить</button>
-              </div>
-            </div>
-          </div>
+      <div class="sc-blocks clearfix">
+        <div class="sc-block-left">
+          <h2 class="sc-blocks-ttl">Новости</h2>
+          <p>Нам наконец завезли Ягермейстер, можем бухнуть как следует</p>
+          <p class="time"><time datetime="2016-01-11">11 января</time></p>
+          <p>
+            В нашей команде супер пополнение, Боря руки-ножницы, Гарри
+            человек-швейцарский нож
+          </p>
+          <p class="time"><time datetime="2016-09-19">19 сентября</time></p><br />
+          <a class="btn" href="#">Все новости</a>
         </div>
-      </main>
-    
-    <footer class="main-footer clearfix">
-      <div class="container">
-        <div class="adress">
-          <p>Барбершоп "Пока волосы"</p>
-            <p>Адрес: Перово дом кирпичный подъезд грязный</p>
-            <p><a href="#">Как нас найти?</a></p>
-            <p>Телефон: 88005553535</p>
-        </div>
-        <div class="social">
-          <p>Давайте дружить!</p>
-          <a class="social-btn vk" href="http://vk.com"><img src="img/vk.png" width="20%"></a>
-          <a class="social-btn fb" href="http://facebook.com"><img src="img/face.png" width="20%"></a>
-          <a class="social-btn inst" href="http://instagram.com"><img src="img/inst.png" width="20%"></a>
-        </div>
-        <div class="made">
-          <p>Разработано:</p>
-          <a class="btn" href="http://htmlacademy.ru">HTML ACADEMY</a>
+        <div class="sc-block-right">
+          <h2 class="sc-blocks-ttl">Фотогалерея</h2>
+          <img src="img/index/3.jpg" width="286px" height="186px" /><br />
+          <button class="btn-sc-bl-lf btn disabled">Назад</button>
+          <button class="btn-sc-bl-rt btn disabled">Вперед</button>
         </div>
       </div>
-    </footer>
-    <div class="modal-content">
-      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-      <h2 class="modal-content-title">Личный кабинет</h2>
-      <p>Введите свой логин и пароль</p>
-      <form class="login-form" action="#" method="POST">
-        <input class="icon-user" type="text" name="login" placeholder="Логин">
-        <input class="icon-password" type="password" name="password" placeholder="пароль">
-        <label class="login-checkbox">
-          <input type="checkbox" name="remember">
-          <span class="checkbox-indicator"></span>
-          Запомни меня
-        </label>
-        <a class="restore" href="#">Я забыл пароль</a>
-        <button class="btn" type="submit">Войти</button>
-      </form>
+      <div class="td-blocks clearfix">
+        <div class="td-block-left">
+          <h2 class="td-blocks-ttl">Контактная информация</h2>
+          <p>
+            Барбершоп "Пока волосы"<br />
+            Адрес: Перово дом кирпичный подъезд грязный<br />
+            Телефон: 88005553535
+          </p>
+          <p>
+            Время работы:<br />
+            пн-пт: с 10:00 до 22:00 <br />
+            сб-вс: с 10:00 до 19:00
+          </p>
+          <a class="btn js-open-map" href="#">Как проехать</a>
+          <a class="btn" href="#">Обратная связь</a>
+        </div>
+        <div class="td-block-right">
+          <h2 class="td-blocks-ttl">Записаться</h2>
+          <p>
+            Укажите желаемую дату и время и мы свяжемся с вами для
+            подтверждения брони
+          </p>
+          <form class="appointment-form" action="#" method="post">
+            <input type="text" name="date" value="" placeholder="Дата" />
+            <input type="text" name="time" value="" placeholder="Время" />
+            <input type="text" name="name" value="" placeholder="Ваше имя" />
+            <input type="tel" name="phone" value="" placeholder="Телефон" />
+          </form>
+          <br />
+          <button class="btn" type="submit">Отправить</button>
+        </div>
+      </div>
     </div>
-    <div class="modal-content-map">
-      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-      <div id="yandex-map"></div>
     </div>
-    <div class="modal-overlay"></div>
-    <script src="js/script.js"></script>
-  </body>
+  </main>
+
+  <footer class="main-footer clearfix">
+    <div class="container">
+      <div class="adress">
+        <p>Барбершоп "Пока волосы"</p>
+        <p>Адрес: Перово дом кирпичный подъезд грязный</p>
+        <p><a href="#">Как нас найти?</a></p>
+        <p>Телефон: 88005553535</p>
+      </div>
+      <div class="social">
+        <p>Давайте дружить!</p>
+        <a class="social-btn vk" href="http://vk.com"><img src="img/vk.png" width="20%"></a>
+        <a class="social-btn fb" href="http://facebook.com"><img src="img/face.png" width="20%"></a>
+        <a class="social-btn inst" href="http://instagram.com"><img src="img/inst.png" width="20%"></a>
+      </div>
+      <div class="made">
+        <p>Разработано:</p>
+        <a class="btn" href="http://htmlacademy.ru">HTML ACADEMY</a>
+      </div>
+    </div>
+  </footer>
+  <div class="modal-content">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+    <h2 class="modal-content-title">Личный кабинет</h2>
+    <p>Введите свой логин и пароль</p>
+    <form class="login-form" action="#" method="POST">
+      <input class="icon-user" type="text" name="login" placeholder="Логин">
+      <input class="icon-password" type="password" name="password" placeholder="пароль">
+      <label class="login-checkbox">
+        <input type="checkbox" name="remember">
+        <span class="checkbox-indicator"></span>
+        Запомни меня
+      </label>
+      <a class="restore" href="#">Я забыл пароль</a>
+      <button class="btn" type="submit">Войти</button>
+    </form>
+  </div>
+  <div class="modal-content-map">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+    <div id="yandex-map"></div>
+  </div>
+  <div class="modal-overlay"></div>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
