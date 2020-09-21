@@ -80,6 +80,7 @@ window.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
         if (mapPopup.classList.contains("modal-content-show")) {
             mapPopup.classList.remove("modal-content-show");
+            overlay.classList.remove("modal-overlay-show");
         }
     }
 });
