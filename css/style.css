@@ -79,6 +79,7 @@ h2 {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+  min-height: 1200px;
 }
 
 a {
@@ -118,6 +119,8 @@ a {
 
 .main-nav .active {
   border-bottom: 5px solid rgb(255, 255, 255);
+  background-color: rgb(10, 10, 10);
+  cursor: default;
 }
 
 
@@ -821,6 +824,7 @@ ul {
   margin-left: 10px;
   line-height: 36px;
   margin-bottom: 36px;
+  margin-top: 54px;
 }
 
 .line {
@@ -907,7 +911,8 @@ ul {
 /* NEWS CSS */
 
 .new img {
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .new {
@@ -966,6 +971,8 @@ ul {
 .add-cont {
   width: 100%;
   margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .cont-for1 {
