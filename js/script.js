@@ -28,6 +28,10 @@ var mapPopup = document.querySelector(".modal-content-map");
 var mapClose = mapPopup.querySelector(".modal-content-close");
 var overlay = document.querySelector(".modal-overlay");
 
+let ourPlanetName = "Земля";
+let currentUserName;
+
+
 link.addEventListener("click", function (event) {
     event.preventDefault();
     popup.classList.add("modal-content-show");

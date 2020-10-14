@@ -113,7 +113,7 @@ a {
 }
 
 .main-nav div:hover {
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid rgb(211, 210, 210);
 }
 
 
@@ -123,18 +123,23 @@ a {
   cursor: default;
 }
 
+.main-nav .active:hover {
+  border-bottom-color: white;
+}
+
 
 .user-block {
   float: right;
-
   font-weight: bold;
 }
 
 .user-block .enter {
   padding-top: 25px;
   min-height: 45px;
+}
 
-
+.user-block .enter:hover {
+  color: #cfcfcf
 }
 
 .container {
@@ -248,6 +253,7 @@ a {
 }
 
 .sc-block-right img {
+  position: absolute;
   border: 7px solid white;
   border-radius: 5px;
 }
